@@ -1,0 +1,12 @@
+button.logout{
+    border: 0;
+    background-color: transparent;
+}
+
+.none{
+    display: none;
+}
+
+.no-underline:hover{
+    text-decoration: none;
+}
