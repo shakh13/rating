@@ -97,13 +97,11 @@ function toPersent($val, $max){
         <div class="container">
             <div class="row align-items-center text-center text-lg-left mb-5">
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0">
-                    <h2 class="h1">We’re a growing team of makers and doers</h2>
-                    <p class="lead">Berspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    <h2 class="h1">Рейтинг - это залог вашего успеха и процветания</h2>
+                    <p class="lead"></p>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-7 text-center">
-
                     <img src="./assets/img/liramail_dribbble.jpg" alt="Image" class="img-fluid rounded">
-
                 </div>
             </div>
         </div>
