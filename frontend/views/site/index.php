@@ -11,12 +11,12 @@ $this->title = 'Rating';
             <div class="col-md-5">
                 <div class="headline">
                     <div class="headline-content">
-                        <h1 class="headline-title">Рейтинг проетно изыскательских организаций</h1>
+                        <h1 class="headline-title">Рейтинг проектно-изыскательских и строительных организаций</h1>
                         <p class="lead">We collaborate with ambitious people.Let’s build something great.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7"> <img src="./assets/img/header-img.png" alt="" class="img-fluid pt-5"> <img src="./assets/img/person.png" class="img-fluid person-img" class="img-fluid"> </div>
+            <div class="col-md-7"> <img src="./assets/img/header-img1.png" alt="" class="img-fluid pt-5"> <img src="./assets/img/person.png" class="img-fluid person-img" class="img-fluid"> </div>
         </div>
     </div>
 </header>
@@ -31,7 +31,7 @@ $this->title = 'Rating';
             <div class="row d-flex justify-content-start">
                 <div class="col-lg-12">
                     <div class="w-85 mb-5">
-                        <h3 class="h1">Рейтинг проетно изыскательских организаций</h3>
+                        <h3 class="h1">Определение  рейтинговых показателей проектно-изыскательских и строительных организаций</h3>
                         <p class="heading -h4">Building strong &amp; impressive portfolios using our free bootstrap templates.</p>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ $this->title = 'Rating';
                 </div>
                 <div class="row align-items-center mt-3">
                     <div class="col-md-8 text-center">
-                        <div class="position-relative"> <img src="./assets/img/header-img.png" alt="" class="img-fluid" style="max-height: 700px;"> <img src="assets/img/person-2.png" alt="" class="img-fluid person-2 d-none d-md-block d-lg-block"> </div>
+                        <div class="position-relative"> <img src="./assets/img/header-img1.png" alt="" class="img-fluid" style="max-height: 700px;"> <img src="assets/img/person-2.png" alt="" class="img-fluid person-2 d-none d-md-block d-lg-block"> </div>
                     </div>
                     <div class="col-md-4">
                         <!-- icon box -->

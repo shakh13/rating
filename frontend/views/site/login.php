@@ -34,7 +34,6 @@ $this->params['breadcrumbs'][] = $this->title;
             <?= Html::a('Отправить', ['site/resend-verification-email']) ?> новое письмо с подтверждением
         </small>
     </p>
-    <p class="mt-5 mb-3 text-muted">© 2005-2020</p>
 
 
 <?php ActiveForm::end(); ?>

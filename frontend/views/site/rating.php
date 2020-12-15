@@ -99,7 +99,6 @@ function toPersent($val, $max){
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0">
                     <h2 class="h1">We’re a growing team of makers and doers</h2>
                     <p class="lead">Berspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    <a href="#" class="lead">Check this out</a>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-7 text-center">
 
@@ -107,14 +106,9 @@ function toPersent($val, $max){
 
                 </div>
             </div>
-            <!-- end: -->
-
         </div>
     </section>
-    <div class="container">
-        <hr>
-    </div>
-    <div class="space-md">
+    <div class="">
         <div class="container">
             <div class="row d-flex justify-content-center mb-sm-3">
                 <div class="col-md-9 text-center">
@@ -184,11 +178,11 @@ function toPersent($val, $max){
                                                     <div class="tab-pane fade show <?= $j > 0 ? '' : 'active' ?>" id="sub-category-<?= $sub['caption'] ?>" role="tabpanel" aria-labelledby="nav-home-tab">
                                                         <br>
                                                         <table class="table">
-                                                            <thead class="thead-dark">
+                                                            <thead class="thead-light">
                                                             <tr>
                                                                 <th scope="col">#</th>
                                                                 <th scope="col">Имя организации</th>
-                                                                <th scope="col">Бал</th>
+                                                                <th scope="col">Процент</th>
                                                             </tr>
                                                             </thead>
                                                             <?php
@@ -202,7 +196,7 @@ function toPersent($val, $max){
                                                                     <tr>
                                                                         <th scope="row"><?= $count ?></th>
                                                                         <td><?= $user->caption ?></td>
-                                                                        <td><?= round($percent).'% - '.round($ball) ?></td>
+                                                                        <td><?= round($percent).'%' /* - '.round($ball)*/ ?></td>
                                                                     </tr>
                                                                     <?php
                                                                 }

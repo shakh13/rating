@@ -29,7 +29,7 @@ AppAsset::register($this);
 <body>
 <?php $this->beginBody() ?>
     <nav class="navbar navbar-expand-lg fixed-top py-3 navbar-light" id="mainNav">
-        <div class="container"> <a class="navbar-brand js-scroll-trigger" href="<?= Yii::$app->urlManager->createUrl(['/']) ?>">ShareBootstrap</a>
+        <div class="container"> <a class="navbar-brand js-scroll-trigger" href="<?= Yii::$app->urlManager->createUrl(['/']) ?>">Рейтинг</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
@@ -79,9 +79,9 @@ AppAsset::register($this);
     <div class="container">
         <div class="row">
             <div class="col-lg-auto mt-4">
-                <h5 class="color-3 fw-700 mb-4">ShareBootstrap.com</h5> </div>
+                <h5 class="color-3 fw-700 mb-4">Рейтинг</h5> </div>
             <div class="col-lg-5 mt-4">
-                <p class="color-7 mb-0 pr-md-11 pr-lg-0">A super flexible free templates where you can use any element in any layout and they won't break. Seriously.</p>
+                <p class="color-7 mb-0 pr-md-11 pr-lg-0">Веб сайт подготовлен на основании постановления кабинета министров Республики Узбекистан №669 от 9 ноября 2020 года : <?= Html::a('«Расчет  и определение  рейтинговых показателей проектно- изыскательских и строительных организаций»', '/files/№699 9.11.2020.pdf') ?></p>
             </div>
             <div class="col-lg-auto ml-lg-auto mt-4"><a class="color-4 mr-4" href="https://geotechnics.uz" alt="Геофундаментпроект">© 2020 LLC GeoFundamentProject</a></div>
         </div>
