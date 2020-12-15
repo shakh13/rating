@@ -27,7 +27,6 @@ $table_class = [
                 <div class="col-md-9 col-lg-6 col-xl-5 mb-4 mb-md-5 mb-lg-0">
                     <h2 class="h1">We’re a growing team of makers and doers</h2>
                     <p class="lead">Berspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    <a href="#" class="lead">Check this out</a>
                 </div>
                 <div class="col-md-9 col-lg-6 col-xl-7 text-center">
                     <img src="./assets/img/liramail_dribbble.jpg" alt="Image" class="img-fluid rounded">
@@ -37,10 +36,7 @@ $table_class = [
 
         </div>
     </section>
-    <div class="container">
-        <hr>
-    </div>
-    <div class="space-md">
+    <div class="">
         <div class="container">
             <div class="float-right">
                 <?= \yii\helpers\Html::a('+', ['/site/add-report'], ['class' => 'btn btn-success rounded-circle', 'title'=> 'Отправить новый отчет']) ?>
@@ -61,7 +57,7 @@ $table_class = [
                             <th scope="col">Бал</th>
                             <th scope="col">Комментарий</th>
                             <th scope="col">Дата</th>
-                            <th></th>
+                            <th>Статус</th>
                         </tr>
                         </thead>
                         <?php

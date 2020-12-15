@@ -10,3 +10,8 @@ button.logout{
 .no-underline:hover{
     text-decoration: none;
 }
+
+.space-sm{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

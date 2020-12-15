@@ -224,7 +224,7 @@ function toPersent($val, $max){
                         // Проектно изыскательский институт
                         ?>
                         <table class="table">
-                            <thead class="thead-dark">
+                            <thead class="thead-light">
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Имя организации</th>
