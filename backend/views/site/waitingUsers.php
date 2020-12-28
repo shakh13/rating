@@ -32,7 +32,7 @@ use yii\bootstrap\Html; ?>
                         <td><?= $user->caption ?></td>
                         <td><?= $user->whois->caption_ru ?></td>
                         <td><?= gmdate('d-m-Y H:i:s', $user->created_at) ?></td>
-                        <td><?= Html::a($user->document, 'http://rating/users/files/'.$user->document, ['target' => 'blank']) ?></td>
+                        <td><?= Html::a($user->document, 'http://rating.geotechnics.uz/users/files/'.$user->document, ['target' => 'blank']) ?></td>
                         <td>
                             <?= Html::a('Подтвердить', ['/site/accept-user', 'id' => $user->id, 'url' => 'waiting-users'], ['class' => 'btn btn-success']) ?>
                             <?= Html::a('Игнорировать', ['/site/ignore-user', 'id' => $user->id, 'url' => 'waiting-users'], ['class' => 'btn btn-warning']) ?>

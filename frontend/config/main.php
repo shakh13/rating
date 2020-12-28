@@ -36,7 +36,7 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        'urlManager' => [
+ /*       'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'enableStrictParsing' => false,
@@ -45,6 +45,7 @@ return [
                 '<action1:\w+>-<action2:\w+>' => 'site/<action1>-<action2>',
             ],
         ],
+ */
     ],
     'params' => $params,
 ];

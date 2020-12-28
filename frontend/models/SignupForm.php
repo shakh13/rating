@@ -1,10 +1,12 @@
 <?php
 namespace frontend\models;
 
+use Throwable;
 use Yii;
 use yii\base\Model;
 use common\models\User;
 use backend\models\Whois;
+use yii\db\StaleObjectException;
 
 /**
  * Signup form
@@ -49,12 +51,18 @@ class SignupForm extends Model
      * Signs user up.
      *
      * @return bool whether the creating new account was successful and email was sent
+     * @throws Throwable
+     * @throws StaleObjectException
      */
     public function signup()
     {
+
         if (!$this->validate()) {
-            return null;
+        //    return null;
         }
+
+
+        print_r($this->errors);
         
         $user = new User();
         $user->username = $this->username;
@@ -78,7 +86,8 @@ class SignupForm extends Model
                 $user->delete();
                 return false;
             }
-        } else
+        } else {
             return false;
+        }
     }
 }

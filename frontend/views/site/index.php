@@ -3,6 +3,12 @@
 /* @var $this yii\web\View */
 
 $this->title = 'LiveRating';
+
+$whois_captions = [
+    1 => "Проектные институты",
+    2 => "Проектно-изыскательские институты",
+    3 => "Строительные организации"
+]
 ?>
 <header class="header">
     <div class="shape-wrap shape-header"><img src="./assets/img/blob-shape-1.svg" alt=""></div>
@@ -40,7 +46,7 @@ $this->title = 'LiveRating';
                                     <a href="<?= Yii::$app->urlManager->createUrl(['/site/rating', 'id' => $whois->id]) ?>" class="card shadow">
                                         <img src="./assets/img/index/<?= $whois->photo ?>" class="img-fluid card-img-top" alt="">
                                         <div class="card-body">
-                                            <h5 class="card-title"><?= $whois->caption_ru ?></h5>
+                                            <h5 class="card-title"><?= $whois_captions[$whois->id] ?></h5>
                                             <p class="card-text">
                                             <p><?= $whois->description_ru ?></p>
                                             </p>

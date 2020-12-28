@@ -1,0 +1,17 @@
+button.logout{
+    border: 0;
+    background-color: transparent;
+}
+
+.none{
+    display: none;
+}
+
+.no-underline:hover{
+    text-decoration: none;
+}
+
+.space-sm{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}

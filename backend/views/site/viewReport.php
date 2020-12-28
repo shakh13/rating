@@ -40,7 +40,7 @@ use yii\bootstrap\Html;
                     <td class="bg-warning"><?= $answer->question->ball ?></td>
                     <td class="bg-info">
                         <?= $answer->question->type->mime_type == 'file'
-                            ? 'Файл <b>'.Html::a($answer->answer, 'http://rating/files/'.$created_answer->id.'/'.$answer->answer, ['target' => 'blank']).'</b>'
+                            ? 'Файл <b>'.Html::a($answer->answer, 'http://rating.geotechnics.uz/files/'.$created_answer->id.'/'.$answer->answer, ['target' => 'blank']).'</b>'
                             : $answer->question->type->caption_ru.': <b>'.($answer->question->type->mime_type != 'checkbox' ? $answer->answer : ($answer->answer == 1 ? 'Да' : 'Нет')).'</b> '.$answer->question->type->short_ru ?>
                     </td>
                     <td class="bg-warning"><?= $answer->question->type2_id > 0 ? ($answer->question->type2->caption_ru.': <b>'.$answer->answer2.'</b> '.$answer->question->type2->short_ru) : '' ?></td>
